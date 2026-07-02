@@ -34,19 +34,24 @@ body {
 }
 .site-header a { color: var(--creme); text-decoration: none; }
 .wordmark {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 800;
   font-size: clamp(28px, 6vw, 40px);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   margin: 0;
   line-height: 1;
+  color: var(--creme);
 }
+.wordmark .salle { color: var(--encre); }
+.wordmark .dot { color: var(--rouge-fonce); }
 .tagline {
+  font-family: 'Syne', sans-serif;
   font-size: 14px;
-  opacity: 0.9;
-  margin: 8px 0 0;
-  font-style: italic;
+  font-weight: 700;
+  opacity: 0.95;
+  margin: 10px 0 0;
+  letter-spacing: 0.02em;
 }
 
 /* ---- Navigation ---- */
@@ -82,7 +87,7 @@ main {
 }
 
 h1 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 800;
   font-size: clamp(28px, 5vw, 40px);
   line-height: 1.15;
@@ -98,7 +103,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 700;
   font-size: 22px;
   margin: 44px 0 14px;
@@ -172,7 +177,7 @@ hr {
 }
 .site-footer a { color: var(--creme); font-weight: 600; }
 .site-footer .foot-word {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
